@@ -77,12 +77,13 @@
   width: 40%;
   flex-direction: column;
   align-items: center;
-  border-radius: 9px;
+  border-radius: 10px;
   background: linear-gradient(#e8e8ee, rgb(249, 246, 246));
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   margin-top: 5px;
   margin-bottom: 5%;
+  padding-top: 0px;
 }
 .container-image-index .productos:hover {
   transform: scale(1.1);
@@ -101,11 +102,11 @@
 }
 .productos img {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 10px 10px;
 }
 
 .productos h1 {
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 25px;
   color: rgb(3, 3, 116);
 }
@@ -116,7 +117,11 @@
   margin-left: auto;
   margin-right: auto;
 }
-.contenido-formulario__input, .contenido-formulario [type=text], .contenido-formulario [type=email], .contenido-formulario select, .contenido-formulario textarea {
+.contenido-formulario__input,
+.contenido-formulario [type=text],
+.contenido-formulario [type=email],
+.contenido-formulario select,
+.contenido-formulario textarea {
   width: 100%;
   padding: 6px 10px;
   margin: 5px 0;
@@ -124,7 +129,9 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-.contenido-formulario__input, .contenido-formulario [type=submit], .contenido-formulario [type=reset] {
+.contenido-formulario__input,
+.contenido-formulario [type=submit],
+.contenido-formulario [type=reset] {
   width: 100%;
   background-color: rgb(3, 3, 116);
   color: white;
@@ -133,7 +140,9 @@
   border: none;
   border-radius: 4px;
 }
-.contenido-formulario__input, .contenido-formulario [type=submit]:hover, .contenido-formulario [type=reset]:hover {
+.contenido-formulario__input,
+.contenido-formulario [type=submit]:hover,
+.contenido-formulario [type=reset]:hover {
   background-color: rgb(66, 69, 131);
 }
 
