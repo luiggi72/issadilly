@@ -8,7 +8,7 @@
   width: auto;
   height: auto;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .d-block {
     width: 90%;
     height: 100vh;
@@ -78,19 +78,14 @@
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  background: linear-gradient(#e8e8ee, rgb(249, 246, 246));
   padding-top: 40px;
   padding-bottom: 10px;
   margin-top: 5px;
   margin-bottom: 5%;
   padding-top: 0px;
 }
-.container-image-index .productos:hover {
-  transform: scale(1.1);
-  transition: 1s;
-}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .container-image-index .productos {
     flex-wrap: nowrap;
     margin-left: auto;
@@ -98,6 +93,10 @@
     margin-bottom: 40px;
     margin-top: 25px;
     width: 20%;
+  }
+  .container-image-index .productos:hover {
+    transform: scale(1.1);
+    transition: 1s;
   }
 }
 .productos img {
@@ -146,7 +145,7 @@
   background-color: rgb(66, 69, 131);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .contenido-formulario {
     width: 30%;
   }
@@ -176,7 +175,7 @@
   border-radius: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .nosotros_video {
     width: 100%;
     margin-bottom: 20px;
@@ -189,7 +188,7 @@
   }
 }
 #contenedor-productos-general {
-  height: 100%;
+  width: 100%;
 }
 
 .seccion_productos {
@@ -210,22 +209,20 @@
 }
 .seccion_productos img {
   width: 400px;
-  height: 300px;
+  height: 240px;
   margin: 10px auto;
   border-radius: 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .seccion_productos img {
     display: inline-block;
     margin: 10px 30px 50px;
+    height: 270px;
   }
 }
 
 #footer {
   grid-area: footer;
-}
-
-#footer {
   display: block;
   width: 100%;
   height: 20vh;
@@ -242,22 +239,23 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
-  #footer #footer {
+@media screen and (min-width: 1280px) {
+  #footer {
     display: block;
     width: 100%;
     height: 20vh;
     border-top: 3px solid rgb(228, 228, 246);
   }
-  #footer #footer p {
+  #footer p {
     text-align: center;
     color: rgb(3, 3, 116);
     margin-top: 15px;
   }
-  #footer #footer .redes-sociales {
+  #footer .redes-sociales {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    gap: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
